@@ -1,0 +1,100 @@
+/* body {
+  background-color: green;
+} */
+
+main {
+  float: right;
+  margin-bottom: 50px;
+}
+
+.aside1 {
+  background-color: white;
+  width: 350px;
+  height: 650px;
+  /* float: right; */
+  margin-right: 70px;
+  border: 1px solid #b8bcc4;
+  color: slategray;
+  text-align: center;
+
+}
+
+body {
+  background-color: #e1e6ef;
+  font-family: Verdana;
+}
+
+.insta-logo {
+  width: 350px;
+  height: auto;
+  /* see if you can make it smaller */
+}
+
+.tagline {
+  font-weight: 500;
+}
+.fb-btn {
+  height: 50px;
+  width: 345px;
+  background-color: #3897f0;
+  color: white;
+  font-size: 12pt;
+
+}
+
+.login {
+  width: 300px;
+  height: 30px;
+  font-size: 10pt;
+  margin-bottom: 10px;
+}
+
+.terms {
+  font-weight: 600;
+  margin: 0, 200px, 200px;
+}
+
+
+.aside2 {
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  /* float: right; */
+  margin-top: 20px;
+  margin-right: 70px;
+  border: 1px solid #b8bcc4;
+  color: slategray;
+  text-align: center;
+
+}
+
+.app {
+  text-align: center;
+  margin-right: 70px;
+}
+
+footer {
+  font-size: 10pt;
+  color: slategray;
+  /* margin-top: 1000px; */
+  /* width: 900px;
+  height: 200px; */
+  /* background-color: yellow; */
+  overflow: hidden;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+
+.phone {
+  margin-left: 320px;
+  margin-top: 60px;
+}
