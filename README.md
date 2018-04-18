@@ -1,20 +1,41 @@
-# CSS Lab
+# Responsive CSS Lab
 
-## Timings
+## My Responsive Instagram Login Page
 
-This lab should take one to two hours.
+**Changes I made:**
+* I used media queries to instruct the browser to have the login form take up the whole screen when the user shrinks the browser window.
+  ```css
+  @media screen and (max-width: 700px) {
+    main {
+      width: 100%;
+    }
+    .phone {
+      display: none;
+    }
+    footer {
+      width: 75%;
+    }
+  }
+```
+* I took the Copyright text out of ```<p>``` tags so that it now sits on the same line as the rest of the items in the bottom navbar.
+* I set percentage height and width values for my ```<main>``` box so that it was easier to make everything inside the main responsive.
+```css
+main {
+  float: right;
+  margin-bottom: 50px;
+  width: 35%;
+  height: 40%;
+}
+```
 
-## Summary
-
-Creating complex looking pages is not as hard as you might think. Recreate the following page using only CSS and HTML.
-
-![Image of instagram login page](Instagram.png)
-
-You can use the developer console in your browser to get colours, pixel sizes and fonts etc from the real site.
 
 
-## Notes
 
-* Think about the flow of the page. Avoid absolute positioning unless it is completely necessary.
-* Keep your CSS as simple as possible. There are very few parts of the page that should require more than three or four lines of CSS.
-* Keep your HTML simple. Think about how you could split the page in to blocks.
+
+
+# The Finished Homework
+
+
+![Image of instagram login page](images/screen-shot2.png)
+
+![Mobile sized login page](images/screen-shot1.png)

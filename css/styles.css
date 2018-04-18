@@ -5,6 +5,8 @@
 main {
   float: right;
   margin-bottom: 50px;
+  width: 35%;
+  height: 40%;
 }
 
 .aside1 {
@@ -85,7 +87,7 @@ footer {
   bottom: 0;
   width: 100%;
   display: inline-block;
-  padding: 50px;
+  /* padding: 50px; */
   text-align: center;
 }
 
@@ -97,4 +99,17 @@ a {
 .phone {
   margin-left: 320px;
   margin-top: 60px;
+}
+
+
+@media screen and (max-width: 700px) {
+  main {
+    width: 100%;
+  }
+  .phone {
+    display: none;
+  }
+  footer {
+    width: 75%;
+  }
 }
